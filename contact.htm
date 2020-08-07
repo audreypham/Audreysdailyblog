@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Audrey's Blog</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link href="img/pawicon.gif" rel="icon">
+	<!-- Link css -->
+	<link href="css/styleblog.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+	<header id="header">
+	<!-- Navigation bar -->
+	<div class="topnav">
+	  <a href="index.htm">HOME</a>
+	  <a href="about.htm">ABOUT ME</a>
+	  <a href="myblog.htm">MY BLOG</a>
+	  <a class="active" href="contact.htm">&#128234 </a>
+	</div>
+	<p style="border-bottom:1px solid gray"></p>
+	</header>
+
+	<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h2 class="heading-font" style="text-align:center">Share your thoughts with me!</h2>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name *</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address *</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message *</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
+        </div>
+
+    </form>
+    </div>
+
+	</div>
+	
+	<footer id="footer">
+	</footer>
+
+</body>
+</html>
